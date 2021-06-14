@@ -37,7 +37,7 @@ git commit -m "Inicial commit"
 
 ## para subir los archivos añadidor al stage y confirmados con el commit y antes de hacer push, hay que añadir un repositorio remoto que debe existir ya en github
 git remote add origin https://github.com/mi_nombre_usuario/mi_nombre_de_repositorio.git
-### git remote add [nombrelocal] [repositorio_remoto]
+_git remote add [nombrelocal] [repositorio_remoto]_
 ### el formato es nombre 'origin' y destino 'https://github.com/mi_nombre_usuario/mi_nombre_de_repositorio.git'
 ## comprobar repositorio remoto con git remote añadido como origin y apuntando a github. 
 git remote -v
