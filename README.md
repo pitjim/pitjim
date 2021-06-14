@@ -15,3 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 -->
+
+#Inicializar carpeta para subir a github.
+## ir a la carpeta
+git init
+## una vez inicializada
+git remote 
+to create a new git repository.
