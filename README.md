@@ -32,6 +32,7 @@ git init
 git add .
 git commit -m "Inicial commit"
 git remote add origin https://github.com/mi_nombre_usuario/mi_nombre_de_repositorio.git
+#ya debe existir el repo en github https://github.com/mi_nombre_usuario/mi_nombre_de_repositorio.git
 git remote -v
 git branch -M main
 git push -u origin main
