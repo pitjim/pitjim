@@ -16,11 +16,12 @@ Here are some ideas to get you started:
 
 -->
 # Configurar entorno desde cmd con git config
-''''
+```
 git config –-global user.name "nombre"
 
 git config –-global user.email "tu@correo.es"
-'''
+```
+
 # ver la configuración de tu entorno cmd de git
 git config --list
 
