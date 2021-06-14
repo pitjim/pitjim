@@ -15,14 +15,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 -->
-# Configurar entorno desde cmd con git config
+## Configurar entorno desde cmd con git config
 ```
 git config –-global user.name "nombre"
 
 git config –-global user.email "tu@correo.es"
 ```
 
-# ver la configuración de tu entorno cmd de git
+## ver la configuración de tu entorno cmd de git
 git config --list
 
 # Inicializar carpeta local para subir a github.
@@ -43,3 +43,5 @@ git branch -M main
 ## subir el commit al con el nombre principal main desde el origen que es nuestra carpeta local 
 git push -u origin main
 ## pedirá las credenciales para acceder al repositorio si es necesario
+## comprobar el push en github.com
+
