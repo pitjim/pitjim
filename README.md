@@ -25,7 +25,17 @@ git config –-global user.email "tu@correo.es"
 ## ver la configuración de tu entorno cmd de git
 git config --list
 
+
 # Inicializar carpeta local para subir a github.
+```
+git init
+git add .
+git commit -m "Inicial commit"
+git remote add origin https://github.com/mi_nombre_usuario/mi_nombre_de_repositorio.git
+git remote -v
+git branch -M main
+git push -u origin main
+```
 ## ir a la carpeta para hacer el init de su contenido
 git init
 ## una vez inicializada puedes añadir todo su contenido al stage
@@ -44,7 +54,7 @@ _git remote add nombrelocal repositorio_remoto_
 ## comprobar repositorio remoto con git remote añadido como origin y apuntando a github. 
 git remote -v
 
-## cambiar el nombre de la rama branch principal de master a main, práctica buenista para eliminar terminos como master, slave, blacklist, etc...
+## ajusta el nombre de la rama branch principal a usar, de master a main, práctica buenista para eliminar terminos como master, slave, blacklist, etc...
 git branch -M main
 
 ## subir los archivos preparados en el commit con git push. push de la carpeta local al repositorio 'origen' y rama 'main' con -u para hacer no se qué-
