@@ -40,5 +40,4 @@ git remote -v
 git branch -M main
 ## subir el commit al con el nombre principal main desde el origen que es nuestra carpeta local 
 git push -u origin main
-
-to create a new git repository.
+## pedirá las credenciales para acceder al repositorio si es necesario
