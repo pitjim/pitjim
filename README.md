@@ -44,5 +44,5 @@ git branch -M main
 ## subir los archivos preparados en el commit con git push. push de la carpeta local al repositorio 'origen' y rama 'main' con -u para hacer no se qué-
 git push -u origin main
 ## pedirá las credenciales para acceder al repositorio si es necesario
-### _comprobar el push en github.com
+### _comprobar el push en github.com_
 
